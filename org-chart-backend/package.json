@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev:start": "node ./bin/www",
+    "dev:start": "PORT=3000 node ./bin/www",
     "prod:start": "pm2-runtime ./bin/www",
     "generate": "plop"
   },
